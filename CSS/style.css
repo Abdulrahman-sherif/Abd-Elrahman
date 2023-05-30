@@ -326,4 +326,13 @@ section {
         font-size: 0.9em;
     }
 }
+@media (max-width:641px) {
+    body{
+        font-size: 12px;
+    }
+    .main h2 {
+        font-size: 1em;
+    }
+
+}
     /* end footer */
