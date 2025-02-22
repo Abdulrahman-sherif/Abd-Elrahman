@@ -1,335 +1,334 @@
-
-
-:root{
-    --BlueWhite: #adefd1ff;
-    --BlueBlack: #00203fff;
-    --H2Color: bisque;
-    --changeColor: #89abe3;
+:root {
+  --BlueWhite: #ffd987;
+  --BlueBlack: #142143;
+  --H2Color: #e4e4e4;
+  --changeColor: #1a5f94;
 }
 * {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-    /* start header */
+/* start header */
 .Head {
-    background-color: var(--BlueBlack);
-    width: 100%;
-    position: fixed;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding: 10px 200px;
-    box-shadow: 0px 1px 25px 0px black;
-        
+  background-color: var(--BlueBlack);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px 200px;
+  box-shadow: 0px 1px 25px 0px black;
 }
 .logo {
-    text-decoration: none;
-    color: var(--BlueWhite);
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1.5em;
+  text-decoration: none;
+  color: var(--BlueWhite);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
 .navigation a {
-    text-decoration: none;
-    color: var(--BlueWhite);
-    font-size: 1.1em;
-    font-weight: 400;
-    padding-left: 25px;
-    transition: 0.5;
+  text-decoration: none;
+  color: var(--BlueWhite);
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-left: 25px;
+  transition: 0.5;
 }
-.navigation a:hover{
-    color: var(--changeColor);
+.navigation a:hover {
+  color: var(--changeColor);
 }
-    /* end header */
+/* end header */
 
-    /* start section main */
+/* start section main */
 section {
-    padding: 100px 200px;
+  padding: 100px 200px;
 }
 .main {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background: url(../images/456d1b45951425.584281dfe6460.jpg) no-repeat;
-    background-size: cover;
-    /* background-position: center; */
-    background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../images/456d1b45951425.584281dfe6460.jpg) no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  background-attachment: fixed;
 }
 .main h2 {
-    color: white;
-    font-size: 1.3em;
-    font-weight: 600;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 600;
 }
 .main h2 span {
-    display: inline-block;
-    margin-top: 15px;
-    color: var(--H2Color);
-    font-size: 3em;
-    font-weight: 700
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--H2Color);
+  font-size: 3em;
+  font-weight: 700;
 }
 .main-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: var(--H2Color);
-    background-color: var(--BlueBlack);
-    font-size: 1.1em;
-    font-weight: 500;
-    padding: 0.9375em 2.1875em;
-    letter-spacing: 2px;
-    border-radius: 15px;
-    margin-bottom: 40px;
-    transition: 0.5s ease;
-    box-shadow: 0 0 8px var(--H2Color) inset;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--H2Color);
+  background-color: var(--BlueBlack);
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 2px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.5s ease;
+  box-shadow: 0 0 8px var(--H2Color) inset;
 }
 .main-btn:hover {
-    color: var(--BlueBlack);
-    background-color: var(--H2Color);
-    transform: scale(1.1);
-    box-shadow: 0 0 10px var(--BlueBlack) inset;
+  color: var(--BlueBlack);
+  background-color: var(--H2Color);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px var(--BlueBlack) inset;
 }
 .social-icons a {
-    color: var(--H2Color);
-    padding-right: 20px;
-    font-size: 1.3em;
-    transition: 0.3s ease;
+  color: var(--H2Color);
+  padding-right: 20px;
+  font-size: 1.3em;
+  transition: 0.3s ease;
 }
-.social-icons .git:hover{
-    color: #171515;
+.social-icons .git:hover {
+  color: #171515;
 }
 .social-icons .fac:hover {
-    color: #1877f2;
+  color: #1877f2;
 }
-.social-icons .insta:hover{
-    color: #b1233d;
+.social-icons .insta:hover {
+  color: #b1233d;
 }
-    /* end section main */
+.social-icons .itech:hover {
+  color: #f86681;
+}
+/* end section main */
 
-    /* start section services */
+/* start section services */
 #services {
-    background-color: var(--BlueBlack);
+  background-color: var(--BlueBlack);
 }
 
 .title {
-    display: flex;
-    justify-content: center;
-    color: var(--BlueWhite);
-    font-size: 2.2em;
-    font-weight: 800;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  color: var(--BlueWhite);
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
 }
 .content {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .card {
-    background-color: var(--BlueWhite);
-    width: 21.25em;
-    border-radius: 15px;
-    padding: 25px;
-    margin: 15px;
-    box-shadow: 0 0 0 ;
-    transition: 0.5s ease;
+  background-color: var(--BlueWhite);
+  width: 21.25em;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 15px;
+  box-shadow: 0 0 0;
+  transition: 0.3s ease;
 }
 .card:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px var(--BlueBlack) inset;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px var(--BlueBlack) inset;
 }
 .icon {
-    color: var(--BlueBlack);
-    font-size: 7em;
-    text-align: center;
+  color: var(--BlueBlack);
+  font-size: 7em;
+  text-align: center;
 }
 .info h3 {
-    color: var(--BlueBlack);
-    font-weight: 700;
-    font-size: 1.3em;
-    text-align: center;
-    margin: 10px;
+  color: var(--BlueBlack);
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center;
+  margin: 10px;
 }
-    /* end section services */
+/* end section services */
 
-    /* start section projects */
+/* start section projects */
 #Projectes {
-    background-color: var(--BlueWhite);
+  background-color: var(--BlueBlack);
 }
 .Projectes .title {
-    color: var(--BlueBlack);
-    margin-bottom: 30px;
+  color: var(--BlueWhite);
+  margin-bottom: 30px;
 }
 .Projectes .content {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .project-card {
-    background-color: var(--BlueBlack);
-    border: 2px solid var(--BlueBlack);
-    min-height: 14em;
-    width: 23em;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 20px;
-    transition: 0.5s ease;
+  background-color: var(--BlueBlack);
+  border: 2px solid var(--BlueBlack);
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.3s ease;
 }
 .project-card:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 .project-card .image img {
-    width: 100%;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+  width: 100%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .project-card .info {
-    padding: 1em; 
+  padding: 1em;
 }
 .project-card .info p {
-    font-size: 0.8em;
-    color: var(--H2Color);
+  font-size: 0.8em;
+  color: var(--H2Color);
 }
 .project-card .info strong {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 800;
-    margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  margin-top: 10px;
 }
 .project-card .info strong span {
-    color: var(--H2Color);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  color: var(--H2Color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .project-card .info strong a {
-    text-decoration: none;
-    color: var(--BlueWhite);
+  text-decoration: none;
+  color: var(--BlueWhite);
 }
 .project-card .info strong a:hover {
-    color: var(--changeColor);
+  color: var(--changeColor);
 }
-    /* end section projects */
+/* end section projects */
 
-    /* start section contact */
+/* start section contact */
 .cards {
-    background-color: var(--BlueBlack);
+  background-color: var(--BlueBlack);
 }
 .E-mail {
-    text-decoration: none;
-    color: var(--BlueBlack);
-    font-weight: 700;
-    font-size: 1.2em;
-    display: block;
-    text-align: center;
-    margin: 10px; 
+  text-decoration: none;
+  color: var(--BlueBlack);
+  font-weight: 700;
+  font-size: 1.2em;
+  display: block;
+  text-align: center;
+  margin: 10px;
 }
 .card-con {
-    background-color: var(--BlueWhite);
-    width: 21.25em;
-    border-radius: 15px;
-    padding: 25px;
-    margin: 15px;
+  background-color: var(--BlueWhite);
+  width: 21.25em;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 15px;
 }
-    /* end section contact  */
+/* end section contact  */
 
-    /* start footer */
+/* start footer */
 .footer {
-    background-color: var(--H2Color);
-    color: var(--BlueBlack);
-    padding: 1.8em;
-    display: flex;
-    justify-content: center;
+  background-color: var(--H2Color);
+  color: var(--BlueBlack);
+  padding: 1.8em;
+  display: flex;
+  justify-content: center;
 }
 .footer p {
-    font-size: 1.2em;
-    font-weight: 600;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 .footer p span {
-    color: #1c30e6;
+  color: #1c30e6;
 }
-@media (max-width:1023px) {
-    section{
-        padding: 25px 50px;
-    }
-    .Head {
-        padding: 15px 15px;
-        position: fixed;
-        z-index: 999;
-    }
-    .logo {
-        font-weight: 500;
-        font-size: 1.1em;
-    }
-    .navigation {
-        padding-right: 10px;
-    }
-    .navigation a {
-        padding-left: 6px;
-        font-size: 0.8em;
-    }
-    .main h2{
-        margin-top: -140px;
-    }
-    .main h2 span {
-        font-size: 2.6em;
-        margin-top: 10px;
-    }
-    .main-btn {
-        font-size: 0.9em;
-        letter-spacing: 1.5px;
-    }
-    .social-icons a {
-        padding-right: 15px;
-        font-size: 1.1em;
-    }
-    .title {
-        font-size: 1.7em;
-    }
-    .card {
-        width: 15em;
-        height: 14em;
-    }
-    .icon {
-        font-size: 5em;
-    }
-    .project-card .info strong span {
-        font-size: 0.8em;
-        font-weight: 600;
-    }
-    .project-card .info strong a {
-        font-size: 0.8em;
-        font-weight: 400;
-    }
-    .project-card {
-        width: 15em;
-        height: 16em;
-    }
-    .info h3 {
+@media (max-width: 1023px) {
+  section {
+    padding: 25px 50px;
+  }
+  .Head {
+    padding: 15px 15px;
+    position: fixed;
+    z-index: 999;
+  }
+  .logo {
+    font-weight: 500;
+    font-size: 1.1em;
+  }
+  .navigation {
+    padding-right: 10px;
+  }
+  .navigation a {
+    padding-left: 6px;
+    font-size: 0.8em;
+  }
+  .main h2 {
+    margin-top: -140px;
+  }
+  .main h2 span {
+    font-size: 2.6em;
+    margin-top: 10px;
+  }
+  .main-btn {
+    font-size: 0.9em;
+    letter-spacing: 1.5px;
+  }
+  .social-icons a {
+    padding-right: 15px;
+    font-size: 1.1em;
+  }
+  .title {
+    font-size: 1.7em;
+  }
+  .card {
+    width: 15em;
+    height: 14em;
+  }
+  .icon {
+    font-size: 5em;
+  }
+  .project-card .info strong span {
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+  .project-card .info strong a {
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+  .project-card {
+    width: 15em;
+    height: 16em;
+  }
+  .info h3 {
     font-size: 1.2em;
-    margin: 0px
-    }
-    .E-mail {
-        font-size: 0.9em;
-        margin-left: -10px;
-    }
-    .card-con {
-        width: 15em;
-        height: 14em;
-    }
-    .footer p {
-        font-size: 0.9em;
-    }
+    margin: 0px;
+  }
+  .E-mail {
+    font-size: 0.9em;
+    margin-left: -10px;
+  }
+  .card-con {
+    width: 15em;
+    height: 14em;
+  }
+  .footer p {
+    font-size: 0.9em;
+  }
 }
-@media (max-width:641px) {
-    body{
-        font-size: 12px;
-    }
-    .main h2 {
-        font-size: 1em;
-    }
-
+@media (max-width: 641px) {
+  body {
+    font-size: 12px;
+  }
+  .main h2 {
+    font-size: 1em;
+  }
 }
-    /* end footer */
+/* end footer */
